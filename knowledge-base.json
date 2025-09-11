@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between structured and unstructured data?",
+    "answer": "Structured data is organized in rows and columns, like databases and spreadsheets. Unstructured data does not follow a predefined format, such as images, videos, audio, or free-text documents."
+  },
+  {
+    "id": 2,
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "answer": "In supervised learning, the model is trained on labeled data to predict outcomes. In unsupervised learning, the model finds hidden patterns or groupings in unlabeled data."
+  },
+  {
+    "id": 3,
+    "question": "What are the different types of joins in SQL?",
+    "answer": "The main types are INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN. They determine how rows from two tables are combined based on matching keys."
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between ETL and ELT?",
+    "answer": "ETL (Extract, Transform, Load) transforms data before loading it into storage. ELT (Extract, Load, Transform) loads raw data into storage first and then transforms it, often using modern cloud warehouses like Snowflake or BigQuery."
+  },
+  {
+    "id": 5,
+    "question": "What is normalization in databases?",
+    "answer": "Normalization is the process of organizing data into multiple related tables to reduce redundancy and improve data integrity."
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of indexing in SQL?",
+    "answer": "Indexing speeds up query execution by allowing the database to find rows faster, but it may slow down insert and update operations."
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between classification and regression?",
+    "answer": "Classification predicts categories (e.g., spam or not spam), while regression predicts continuous values (e.g., house prices)."
+  },
+  {
+    "id": 8,
+    "question": "What is data cleaning?",
+    "answer": "Data cleaning is the process of detecting and correcting errors, removing duplicates, handling missing values, and ensuring data quality before analysis."
+  },
+  {
+    "id": 9,
+    "question": "What is the difference between batch processing and stream processing?",
+    "answer": "Batch processing handles large volumes of data in chunks at scheduled times, while stream processing analyzes data in real time as it arrives."
+  },
+  {
+    "id": 10,
+    "question": "What is a data pipeline?",
+    "answer": "A data pipeline is a set of processes that move data from one system to another, including extraction, transformation, and loading into a destination for analysis."
+  },
+  {
+    "id": 11,
+    "question": "What are some common data visualization tools?",
+    "answer": "Popular tools include Tableau, Power BI, Looker, and open-source libraries like Matplotlib, Seaborn, and Plotly."
+  },
+  {
+    "id": 12,
+    "question": "What is overfitting in machine learning?",
+    "answer": "Overfitting occurs when a model learns patterns from training data too well, including noise, and performs poorly on unseen data."
+  },
+  {
+    "id": 13,
+    "question": "What are some ways to handle missing data?",
+    "answer": "You can drop rows/columns, replace missing values with mean/median/mode, use forward/backward fill, or apply advanced imputation methods."
+  },
+  {
+    "id": 14,
+    "question": "What is a key difference between OLTP and OLAP databases?",
+    "answer": "OLTP (Online Transaction Processing) supports day-to-day transactions with fast inserts/updates. OLAP (Online Analytical Processing) supports analytical queries with large aggregations."
+  },
+  {
+    "id": 15,
+    "question": "What is feature engineering?",
+    "answer": "Feature engineering is the process of creating new input features from raw data to improve the performance of machine learning models."
+  },
+  {
+    "id": 16,
+    "question": "What are the main steps in a data science project lifecycle?",
+    "answer": "Typical steps include problem definition, data collection, data cleaning, exploratory data analysis, feature engineering, model training, evaluation, and deployment."
+  },
+  {
+    "id": 17,
+    "question": "What is the difference between correlation and causation?",
+    "answer": "Correlation shows a statistical relationship between two variables, while causation indicates that one variable directly influences the other."
+  },
+  {
+    "id": 18,
+    "question": "What is Apache Airflow used for?",
+    "answer": "Apache Airflow is an open-source workflow orchestration tool for scheduling, monitoring, and managing data pipelines."
+  },
+  {
+    "id": 19,
+    "question": "What is big data?",
+    "answer": "Big data refers to datasets that are too large or complex for traditional processing systems. They are often described by the 3Vs: Volume, Velocity, and Variety."
+  },
+  {
+    "id": 20,
+    "question": "What is data warehousing?",
+    "answer": "A data warehouse is a centralized repository designed for analytical querying and reporting, storing historical data from multiple sources."
+  },
+  {
+    "id": 21,
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "answer": "SQL databases are relational, structured, and schema-based, while NoSQL databases are non-relational, flexible, and suitable for unstructured or semi-structured data."
+  },
+  {
+    "id": 22,
+    "question": "What is dimensional modeling?",
+    "answer": "Dimensional modeling is a data modeling technique used in data warehouses that organizes data into facts (measurable events) and dimensions (context attributes)."
+  },
+  {
+    "id": 23,
+    "question": "What is a foreign key in SQL?",
+    "answer": "A foreign key is a field in one table that uniquely identifies a row in another table, used to establish relationships between tables."
+  },
+  {
+    "id": 24,
+    "question": "What is A/B testing?",
+    "answer": "A/B testing is an experimental method where two versions of a variable (A and B) are compared to determine which performs better."
+  },
+  {
+    "id": 25,
+    "question": "What is logistic regression?",
+    "answer": "Logistic regression is a classification algorithm that models the probability of a binary outcome using a logistic function."
+  },
+  {
+    "id": 26,
+    "question": "What is regularization in machine learning?",
+    "answer": "Regularization is a technique used to prevent overfitting by adding a penalty term to the loss function, such as L1 (Lasso) or L2 (Ridge) regularization."
+  },
+  {
+    "id": 27,
+    "question": "What is a primary key in SQL?",
+    "answer": "A primary key is a unique identifier for each record in a table. It ensures that no duplicate or null values exist in that column."
+  },
+  {
+    "id": 28,
+    "question": "What is a star schema?",
+    "answer": "A star schema is a type of database schema used in data warehousing where a central fact table is connected to multiple dimension tables, resembling a star shape."
+  },
+  {
+    "id": 29,
+    "question": "What is the difference between Hadoop and Spark?",
+    "answer": "Hadoop is a distributed storage and processing framework, while Spark is a distributed data processing engine known for in-memory computations and faster performance."
+  },
+  {
+    "id": 30,
+    "question": "What is cross-validation?",
+    "answer": "Cross-validation is a technique to evaluate model performance by splitting the dataset into multiple folds, training on some folds, and validating on the others."
+  },
+  {
+    "id": 31,
+    "question": "What is the difference between left join and inner join?",
+    "answer": "An inner join returns only matching rows from both tables, while a left join returns all rows from the left table and matches from the right table."
+  },
+  {
+    "id": 32,
+    "question": "What is a data lake?",
+    "answer": "A data lake is a centralized repository that stores structured, semi-structured, and unstructured data in raw format for analysis and machine learning."
+  },
+  {
+    "id": 33,
+    "question": "What is variance in statistics?",
+    "answer": "Variance measures the spread of data points from the mean, indicating how far values are from the average."
+  },
+  {
+    "id": 34,
+    "question": "What is the difference between mean, median, and mode?",
+    "answer": "Mean is the average of numbers, median is the middle value when numbers are sorted, and mode is the most frequently occurring value."
+  },
+  {
+    "id": 35,
+    "question": "What is hypothesis testing?",
+    "answer": "Hypothesis testing is a statistical method to determine whether there is enough evidence to reject a null hypothesis in favor of an alternative hypothesis."
+  },
+  {
+    "id": 36,
+    "question": "What is p-value in hypothesis testing?",
+    "answer": "The p-value indicates the probability of observing the data if the null hypothesis is true. A small p-value suggests strong evidence against the null hypothesis."
+  },
+  {
+    "id": 37,
+    "question": "What is the central limit theorem?",
+    "answer": "The central limit theorem states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the population distribution."
+  },
+  {
+    "id": 38,
+    "question": "What is an outlier?",
+    "answer": "An outlier is a data point that lies significantly outside the overall pattern of the dataset and can distort analysis if not handled properly."
+  },
+  {
+    "id": 39,
+    "question": "How do you detect outliers?",
+    "answer": "Outliers can be detected using methods like z-scores, IQR (Interquartile Range), or visualization techniques such as boxplots and scatter plots."
+  },
+  {
+    "id": 40,
+    "question": "What is the difference between batch gradient descent and stochastic gradient descent?",
+    "answer": "Batch gradient descent updates weights after processing the whole dataset, while stochastic gradient descent updates weights after each sample, making it faster but noisier."
+  },
+  {
+    "id": 41,
+    "question": "What is PCA (Principal Component Analysis)?",
+    "answer": "PCA is a dimensionality reduction technique that transforms features into a smaller set of uncorrelated variables called principal components."
+  },
+  {
+    "id": 42,
+    "question": "What is the curse of dimensionality?",
+    "answer": "The curse of dimensionality refers to the challenges that arise when analyzing data with many features, such as increased sparsity and reduced model performance."
+  },
+  {
+    "id": 43,
+    "question": "What is k-means clustering?",
+    "answer": "K-means is an unsupervised learning algorithm that partitions data into k clusters by minimizing the distance between data points and cluster centroids."
+  },
+  {
+    "id": 44,
+    "question": "What is the difference between classification and clustering?",
+    "answer": "Classification is supervised learning where labels are known, while clustering is unsupervised learning where the model groups data based on similarities."
+  },
+  {
+    "id": 45,
+    "question": "What is a confusion matrix?",
+    "answer": "A confusion matrix is a table that shows true positives, false positives, true negatives, and false negatives, used to evaluate classification models."
+  },
+  {
+    "id": 46,
+    "question": "What is precision and recall?",
+    "answer": "Precision measures how many predicted positives are actually correct, while recall measures how many actual positives were correctly identified."
+  },
+  {
+    "id": 47,
+    "question": "What is the F1-score?",
+    "answer": "The F1-score is the harmonic mean of precision and recall, providing a balance between the two metrics for classification performance."
+  },
+  {
+    "id": 48,
+    "question": "What is a time series?",
+    "answer": "A time series is a sequence of data points collected or recorded at specific time intervals, often used in forecasting."
+  },
+  {
+    "id": 49,
+    "question": "What is ARIMA in time series analysis?",
+    "answer": "ARIMA (AutoRegressive Integrated Moving Average) is a statistical model used for forecasting time series data by combining autoregression, differencing, and moving averages."
+  },
+  {
+    "id": 50,
+    "question": "What is the difference between variance and standard deviation?",
+    "answer": "Variance measures the spread of data points around the mean, while standard deviation is the square root of variance, expressed in the same units as the data."
+  }
+]
+
+
